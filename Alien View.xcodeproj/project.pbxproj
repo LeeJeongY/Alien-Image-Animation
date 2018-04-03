@@ -12,6 +12,11 @@
 		FD765C3A2073479E00F2D0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD765C382073479E00F2D0CA /* Main.storyboard */; };
 		FD765C3C2073479E00F2D0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD765C3B2073479E00F2D0CA /* Assets.xcassets */; };
 		FD765C3F2073479E00F2D0CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD765C3D2073479E00F2D0CA /* LaunchScreen.storyboard */; };
+		FD765C4C2073483A00F2D0CA /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD765C472073483A00F2D0CA /* frame1.png */; };
+		FD765C4D2073483A00F2D0CA /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD765C482073483A00F2D0CA /* frame4.png */; };
+		FD765C4E2073483A00F2D0CA /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD765C492073483A00F2D0CA /* frame5.png */; };
+		FD765C4F2073483A00F2D0CA /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD765C4A2073483A00F2D0CA /* frame2.png */; };
+		FD765C502073483A00F2D0CA /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = FD765C4B2073483A00F2D0CA /* frame3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FD765C3B2073479E00F2D0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD765C3E2073479E00F2D0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD765C402073479E00F2D0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD765C472073483A00F2D0CA /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		FD765C482073483A00F2D0CA /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		FD765C492073483A00F2D0CA /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
+		FD765C4A2073483A00F2D0CA /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		FD765C4B2073483A00F2D0CA /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		FD765C332073479D00F2D0CA /* Alien View */ = {
 			isa = PBXGroup;
 			children = (
+				FD765C46207347E300F2D0CA /* Images */,
 				FD765C342073479D00F2D0CA /* AppDelegate.swift */,
 				FD765C362073479D00F2D0CA /* ViewController.swift */,
 				FD765C382073479E00F2D0CA /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				FD765C402073479E00F2D0CA /* Info.plist */,
 			);
 			path = "Alien View";
+			sourceTree = "<group>";
+		};
+		FD765C46207347E300F2D0CA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FD765C472073483A00F2D0CA /* frame1.png */,
+				FD765C4A2073483A00F2D0CA /* frame2.png */,
+				FD765C4B2073483A00F2D0CA /* frame3.png */,
+				FD765C482073483A00F2D0CA /* frame4.png */,
+				FD765C492073483A00F2D0CA /* frame5.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD765C4D2073483A00F2D0CA /* frame4.png in Resources */,
 				FD765C3F2073479E00F2D0CA /* LaunchScreen.storyboard in Resources */,
+				FD765C4C2073483A00F2D0CA /* frame1.png in Resources */,
+				FD765C502073483A00F2D0CA /* frame3.png in Resources */,
 				FD765C3C2073479E00F2D0CA /* Assets.xcassets in Resources */,
+				FD765C4F2073483A00F2D0CA /* frame2.png in Resources */,
 				FD765C3A2073479E00F2D0CA /* Main.storyboard in Resources */,
+				FD765C4E2073483A00F2D0CA /* frame5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
